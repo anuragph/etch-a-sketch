@@ -25,3 +25,12 @@ getCell.forEach(item => {item.addEventListener('mouseover', () => draw(item))});
 function draw(onCell) {
     onCell.classList.add('active');
 }
+
+// Erase feature.
+const erase = document.querySelector('.erase');
+
+erase.addEventListener('click', eraseCanvas);
+
+function eraseCanvas() {
+    getCell.forEach(item => item.classList.remove('active'));
+}
