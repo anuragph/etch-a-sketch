@@ -5,15 +5,42 @@
     box-sizing: border-box;
 }
 
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    padding-bottom: 5em;
+
+    background-color: #cccccc;
+}
+
+h1 {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    font-size: 4rem;
+}
+
+button {
+    width: 5em;
+    height: 3em;
+    margin: 1em 0 1em 16em;
+    border: none;
+
+    background-color: black;
+    color: #efefef;
+}
+
 /* Canvas */
 .canvas {
     border: 1px solid black;
     width: 70vh;
     height: 70vh;
+    margin: auto;
 }
 
 .cell {
-    border: 1px solid;
+    border: 1px black dotted;
 }
 
 .active {
