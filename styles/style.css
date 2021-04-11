@@ -11,20 +11,22 @@
     margin: auto;
     height: fit-content;
     padding-bottom: 5em;
+    justify-content: center;
 
     background-color: #cccccc;
 }
 
 h1 {
     padding-top: 0.5em;
-    padding-left: 1em;
     font-size: 4rem;
+    text-align: center;
 }
 
 button {
     width: 5em;
     height: 3em;
-    margin: 1em 0 1em 16em;
+    display: block;
+    margin: 1em auto;
     border: none;
 
     background-color: black;
